@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "memorygame",
+    "slug": "snack-1022d282-fe61-4423-a851-517734ec0c0d",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "A simple memory game using icon fonts\nhttps://snack.expo.io/HkgkpJeDf\nhttps://github.com/tutsplus/easier-react-native-development-with-expo\nhttps://code.tutsplus.com/vi/tutorials/easier-react-native-development-with-expo--cms-30546"
+  }
+}
