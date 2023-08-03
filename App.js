@@ -20,8 +20,8 @@ export default class App extends React.Component {
       'entypo': Entypo,
       'ionicons': Ionicons
     };
-
-    let cards = [
+//Adding levels here
+    let level1 = [
       {
         src: 'fontawesome',
         name: 'heart',
@@ -40,7 +40,71 @@ export default class App extends React.Component {
       {
         src: 'entypo',
         name: 'flower',
-        color: '#37b24d'
+        color: 'white'
+      }
+    ];
+    let level2 = [
+      {
+        src: 'fontawesome',
+        name: 'heart',
+        color: 'red'
+      },
+      {
+        src: 'entypo',
+        name: 'feather',
+        color: '#7d4b12'
+      },
+      {
+        src: 'entypo',
+        name: 'flashlight',
+        color: '#f7911f'
+      },
+      {
+        src: 'entypo',
+        name: 'flower',
+        color: 'white'
+      },
+      {
+        src: 'entypo',
+        name: 'moon',
+        color: '#ffd43b'
+      },
+      {
+        src: 'entypo',
+        name: 'youtube',
+        color: '#FF0000'
+      },
+      {
+        src: 'entypo',
+        name: 'shop',
+        color: '#5f5f5f'
+      },
+      {
+        src: 'fontawesome',
+        name: 'github',
+        color: '#24292e'
+      }
+    ];
+    let level3 = [
+      {
+        src: 'fontawesome',
+        name: 'heart',
+        color: 'red'
+      },
+      {
+        src: 'entypo',
+        name: 'feather',
+        color: '#7d4b12'
+      },
+      {
+        src: 'entypo',
+        name: 'flashlight',
+        color: '#f7911f'
+      },
+      {
+        src: 'entypo',
+        name: 'flower',
+        color: 'white'
       },
       {
         src: 'entypo',
@@ -84,6 +148,8 @@ export default class App extends React.Component {
       }
     ];
 
+    // Add if conditions to assign value to cards for different levels
+    let cards=level3
     let clone = JSON.parse(JSON.stringify(cards));
 
     this.cards = cards.concat(clone);
